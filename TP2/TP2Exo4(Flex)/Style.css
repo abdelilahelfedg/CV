@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    text-align: center;
+    flex-flow: row wrap;
+}
+.container > * {
+    
+    flex: 1 100%;
+}
+.S1234 {
+    display: flex;
+    
+}
+.S1234 > * {
+    flex: 4 100%;
+    
+}
+.S56 {
+    display: flex;
+}
+.S56 > * {
+    flex: 2 100%;
+    
+}
+.header {
+    background-color: rgb(33, 69, 101);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid;
+}
+.S0 {
+    background-color: rgb(64, 94, 81);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid;
+}
+.S1 {
+    background-color: rgb(157, 157, 227);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid;
+}
+.S2 {
+    background-color: rgb(185, 122, 122);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid;
+}
+.S3 {
+    background-color: rgb(99, 164, 114);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid;
+}
+.S4 {
+    background-color: rgb(224, 165, 55);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid;
+}
+.S5 {
+    background-color: rgb(18, 18, 240);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid;
+}
+.S6 {
+    background-color: rgb(18, 18, 240);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid;
+}
+.footer {
+    background-color: rgb(132, 100, 162);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid;
+}
+@media screen and (max-width: 600px) {
+ .S1234 {
+    flex-direction: column;
+ }
+ .S56 {
+    flex-direction: column;
+ }
+}
