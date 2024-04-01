@@ -1,0 +1,83 @@
+.container {
+    background-color: #07487d;
+    position: relative;
+}
+.text {
+    margin: 0px 2px;
+    width: fit-content;
+    padding: 1px 11px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#Uni {
+    letter-spacing: 8px;
+    
+    text-transform: uppercase;
+    
+}
+#NomUni {
+    text-transform: uppercase;
+    
+}
+#Ecol {
+   
+   font-size: 18px;
+}
+#ConEcol {
+    margin: 0px 0px;
+    font-size: 18px;
+ }
+.image {
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+.right {
+    position: absolute;
+    top: 13px;
+    right: 27px;
+}
+.right a {
+    color: #c5c7cd;
+}
+.block {
+    background-color: #00569d;
+    border: 2px solid rgb(242, 239, 239);
+    margin: 0px 15px;
+    display: flex;
+}
+.navigation {
+    
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    width: fit-content;
+    justify-content: space-between;
+    
+}
+.navigation a {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #c5c7cd;
+}
+.navigation a:hover {
+    color: white;
+}
+.navigation a:active {
+    color: rgb(255, 208, 0);
+}
+.clear {
+    clear: both;
+}
+.icons {
+    position: absolute;
+    right: 27px;
+    top: 112px
+    
+}
+.icons a{
+    color: white;
+}
